@@ -22,7 +22,7 @@ I think the provided scripts are a comprehensive implementation for calibrating 
 ## How to Run:
 1. Save both files in the same directory
 2. Install dependencies: pip install numpy matplotlib scipy pandas
-3. Run: python main.py
+3. Run: python3 main.py
 
 ## Outputs:
 - calibrated_parameters.csv
