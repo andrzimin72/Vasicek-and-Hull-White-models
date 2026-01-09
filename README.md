@@ -11,6 +11,7 @@ This is fully integrated and enhanced versions of scripts, incorporating feature
 I think the provided scripts are a comprehensive implementation for calibrating short-rate models (Vasicek and CIR), pricing interest rate instruments (zero-coupon bonds, caps, caplets), and simulating the Vasicek model using Monte Carlo methods. I suppose this is a correct, robust, and insightful short-rate modeling framework. The plots are the expected signature of each model’s behavior. May be Hull-White fits the market because it’s designed to; Vasicek approximates it because it’s simpler. I think we’re now ready to use these models for real-world pricing and risk analysis.
 
 ## Recommendations:
+I think these scripts could be used to:
 1. For pricing caps/swaptions: use Hull-White - it’s designed for this.
 2. For scenario analysis / stress testing: use Vasicek - easier to interpret parameters.
 3. If we want Vasicek to fit better:
