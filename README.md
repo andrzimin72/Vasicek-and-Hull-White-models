@@ -32,6 +32,6 @@ python3 main.py
 ```
 
 ## Outputs:
-- calibrated_parameters.csv
-- yield_curves.csv
-- 3 plots: market fit, ZCB curves, caplet breakdown
+- calibrated_parameters.csv;
+- yield_curves.csv;
+- three plots: market fit, ZCB curves, caplet breakdown.
